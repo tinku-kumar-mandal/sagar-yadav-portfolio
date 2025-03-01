@@ -1,0 +1,72 @@
+.hire_me_btn{
+  font-weight: 700;
+  background: #c05621;
+  cursor: pointer;
+}
+
+.hire_me_btn:hover{
+  background-color: #8e4019;
+}
+
+.hire_me_btn:active{
+  background-color: #8e4019;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
+.project_btn{
+  background: rgba(153, 153, 153, 0.2);
+}
+
+.home_mouse{
+  position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouse{
+  width: 25px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mouse::before{
+  content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3s infinite;
+    -webkit-animation: wheel 1.3s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } }
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } }
+
+    .homepage_photo{
+      visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.4s;
+    }
+
+    .homepage_photo > img {
+      will-change: transform;
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+    }

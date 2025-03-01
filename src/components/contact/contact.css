@@ -1,0 +1,136 @@
+.contact_con{
+    width: 75%;
+    padding: 3rem 0;
+    margin: auto;
+}
+
+.contact_container{
+    max-width: 70rem;
+    margin: auto;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .photo_cont{
+        margin: auto;
+        padding-top: 2rem;
+    }
+}
+
+
+.contact_me_section{
+    margin-bottom: 5rem;
+    padding: 1rem;
+}
+
+.contact_me_header{
+    display: block;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+    font-weight: 800;
+}
+.contact_me_header::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #c05621;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.contact_me_para{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 45rem;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.contact_form_cont{
+    box-shadow: 0 0 5px black;
+    max-width: 50rem;
+    width: 70%;
+    border-radius: 5px;
+    margin: 5rem auto 0 auto;
+    padding: 1rem;
+}
+
+
+.contact_form_field{
+padding: 1rem;
+}
+
+.contact_form_label{
+    color: #666;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    display: block;
+    padding-left: 1rem;
+}
+
+.contact_form_input{
+    color: #333;
+    padding: 0.7rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none
+}
+
+.submit_btn_cont{
+    /* display: flex; */
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+/* .submit_form_btn:hover{
+    background-color: #8e4019;
+} */
+
+.button {
+    position: relative;
+    border: none;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: end;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }

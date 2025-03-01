@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro',sans-serif;
+    /* background: rgb(50, 50, 50); */
+}
