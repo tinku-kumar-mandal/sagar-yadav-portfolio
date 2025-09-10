@@ -21,7 +21,7 @@ const About = () => {
             </h3>
             <div className="about_content_details">
               <p className="about_para">
-                I'm a <strong>Web Developer</strong> building the Front-end and
+                I'm a <strong>Full stack Web Developer</strong> building the Front-end and
                 Back-end of the Websites and Web Applications that leads to the
                 success of the overall product. Check out some of my work in the{" "}
                 <strong>Projects</strong> section.
@@ -65,6 +65,7 @@ const About = () => {
               <div className="skill max-sm:m-1">HTML</div>
               <div className="skill max-sm:m-1">CSS</div>
               <div className="skill max-sm:m-1">JavaScript</div>
+              <div className="skill max-sm:m-1">TypeScript</div>
               <div className="skill max-sm:m-1">React.js</div>
               <div className="skill max-sm:m-1">Next.js</div>
               <div className="skill max-sm:m-1">JAVA</div>
