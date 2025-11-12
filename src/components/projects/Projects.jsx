@@ -1,4 +1,3 @@
-import React from "react";
 import "../projects/projects.css";
 import Github from "/pIcons/icons8-github-30.png";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.css";
 import Linkdin from "/pIcons/linkedin-ico.png";
 import Github from "/pIcons/github-ico.png";

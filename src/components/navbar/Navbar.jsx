@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from 'prop-types';
 import "./navbar.css";
 import { Link as ScrollLink } from "react-scroll";
 import { FiSun } from "react-icons/fi";
@@ -188,3 +188,10 @@ const Navbar = ({ toggleTheme, darkMode, isOpen, toggleMenu }) => {
 };
 
 export default Navbar;
+
+Navbar.propTypes = {
+  toggleTheme: PropTypes.func.isRequired,
+  darkMode: PropTypes.bool.isRequired,
+  isOpen: PropTypes.bool.isRequired,
+  toggleMenu: PropTypes.func.isRequired,
+};

@@ -1,71 +1,11 @@
-import React from "react";
+import "./homepage.css";
 import "./homepage.css";
 
 // import { Link as RouterLink } from "react-router-dom";
 import Linkdin from "/pIcons/icons8-linkedin-30.png";
 import Github from "/pIcons/icons8-github-30.png";
 import Mouse from "./Mouse";
-
-const TechStack = [
-  {
-    id: "01",
-    src: "https://img.icons8.com/color/48/000000/html-5--v1.png",
-  },
-  {
-    id: "02",
-    src: "https://img.icons8.com/color/48/000000/css3.png",
-  },
-
-  {
-    id: "03",
-    src: "https://img.icons8.com/color/48/000000/javascript--v1.png",
-  },
-  {
-    id: "04",
-    src: "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png",
-  },
-  {
-    id: "05",
-    src: "https://img.icons8.com/color/48/000000/python--v1.png",
-  },
-  {
-    id: "06",
-    src: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
-  },
-
-  {
-    id: "07",
-    src: "https://img.icons8.com/color/48/000000/nodejs.png",
-  },
-  {
-    id: "08",
-    src: "https://img.icons8.com/fluency/48/000000/node-js.png",
-  },
-  {
-    id: "09",
-    src: "https://img.icons8.com/color/48/000000/mongodb.png",
-  },
-  {
-    id: "10",
-    src: "https://img.icons8.com/color/48/000000/mysql-logo.png",
-  },
-  {
-    id: "11",
-    src: "https://img.icons8.com/color/48/000000/bootstrap.png",
-  },
-  {
-    id: "12",
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png",
-  },
-  {
-    id: "13",
-    src: "https://th.bing.com/th/id/R.7afd213071e52a3a50d7d9c9db74d29b?rik=g3fAZfGv1DDzrQ&pid=ImgRaw&r=0",
-  },
-  // {
-  //   id: "14",
-  //   src: "https://pngimg.com/uploads/github/github_PNG53.png",
-  // },
-];
+import TechStack from "../../data/techStack.json";
 
 const Homepage = () => {
   return (
@@ -132,7 +72,7 @@ const Homepage = () => {
                 </button>
               </a>
 
-              <a href="https://drive.google.com/file/d/1RHMIM_9nZb0ScgvBYS5T532fhlRkj8r5/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1-GNWeYR42dAmkEqkcGVOLAI2-61DF1Pd/view?usp=sharing">
                 <button className="text-lg  font-semibold rounded-md py-2 px-5 dark:bg-black dark:text-white project_btn">
                   Download CV
                 </button>

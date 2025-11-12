@@ -1,4 +1,3 @@
-import React from "react";
 import "../about/about.css";
 import { Link } from "react-scroll";
 
@@ -21,10 +20,9 @@ const About = () => {
             </h3>
             <div className="about_content_details">
               <p className="about_para">
-                I'm a <strong>Web Developer</strong> building the Front-end and
+                I&apos;m a <strong>Web Developer</strong> building the Front-end and
                 Back-end of the Websites and Web Applications that leads to the
-                success of the overall product. Check out some of my work in the{" "}
-                <strong>Projects</strong> section.
+                success of the overall product. Check out some of my work in the <strong>Projects</strong> section.
               </p>
               <p className="about_para">
                 My foundation in <strong>computer science</strong> extends to
@@ -36,9 +34,9 @@ const About = () => {
                 efficient software development.
               </p>
               <p className="about_para">
-                I'm open to <strong>Job</strong> opportunities where I can
+                I&apos;m open to <strong>Job</strong> opportunities where I can
                 contribute, learn and grow. If you have a opportunity that
-                matches my skills then don't hesitate to
+                matches my skills then don&apos;t hesitate to
                 <strong> contact</strong> me.
               </p>
             </div>
